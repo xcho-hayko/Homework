@@ -3,6 +3,8 @@
 #include <iostream>
 #include <map>
 
+// get-եռները +, -, /, * օպերատորները բացի friend-ներից կսարքես const
+
 class Point2D{
 public:
   void set_x_y(double,double);
