@@ -15,7 +15,7 @@ public:
   Person();
   Person(std::string);
   Person(const Person &);
-  Person operator=(const Person &);
+  Person& operator=(const Person &);
   ~Person(){}
 private:
   int age;
