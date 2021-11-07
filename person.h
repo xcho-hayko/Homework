@@ -2,7 +2,7 @@
 #define PERSON_H_
 #include <iostream>
 #include <string>
-
+// ստեղ էլ get-եռներտ կսարքես const
 class Person{
 public:
   void set_age(int);
