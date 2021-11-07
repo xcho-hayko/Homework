@@ -19,7 +19,7 @@ Person::Person(const Person& obj)
   this->email = obj.email;
 }
 
-Person Person::operator=(const Person & obj){
+Person& Person::operator=(const Person & obj){
   this->age = 0;
   this->name = "";
   this->email = "";
